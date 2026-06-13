@@ -1,0 +1,23 @@
+{
+  "serial_port": "COM3",
+  "baud_rate": 9600,
+  "spotify": {
+    "client_id": "bb9dfc44bd95477bb4affa3ec7ce7877",
+    "client_secret": "0dcd3e58d63d4e34885c779788d8042f",
+    "redirect_uri": "http://127.0.0.1:8888/callback"
+  },
+  "youtube_api_key": "AIzaSyCXfHGqdf7or3gJjuSt6_8v0bY0MUW-IUM",
+  "twitch": {
+    "client_id": "glrs4q0kq2bevkd6ulpqv10ba4g8q6",
+    "access_token": "krkq3x3muujz0y2ozgaz1mhixrq1ys"
+  },
+  "browser_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+  "main_profile": "Profile 2",
+  "second_profile": "Profile 1",
+  "screen2_position": "-1920,0",
+  "audio_devices": [
+  "Haut-parleurs (High Definition Audio Device)",
+  "Haut-parleurs (USB Audio Device)",
+  "1 - PL2770H (AMD High Definition Audio Device)"
+]
+}
