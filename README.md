@@ -43,19 +43,12 @@ Ce projet transforme un Arduino en stream deck personnalisé :
 
 ```
 Arduino (boutons + potentiomètre + OLED)
-
 │
-
 │  USB Série (COM3, protocole ligne par ligne)
-
 ▼
-
 script.py  ◄──────────────► Windows APIs (pycaw / comtypes)
-
 │
-
 ▼
-
 Spotify (Web API) / YouTube / Twitch (titre fenêtre) / Audio / Google Chrome
 ```
 
@@ -188,31 +181,18 @@ Les noms doivent correspondre **exactement** au `FriendlyName` du périphérique
 
 ```
 stream_deck/
-
 ├── README.md               # Ce fichier
-
 ├── CLAUDE.md               # Notes/contexte pour l'assistant IA
-
 ├── config.json             # Configuration (ports, credentials API, profils, devices)
-
 ├── script.py               # Script principal (lecture série, logique métier)
-
 ├── launcher.pyw            # Interface graphique de supervision + icône tray
-
 ├── create_shortcut.ps1     # Crée le raccourci bureau "Stream Deck"
-
 ├── logo.png                # Icône utilisée par le launcher / le raccourci
-
 ├── launcher.lock           # Verrou d'instance unique (généré au lancement)
-
 ├── .cache                  # Cache du token Spotify (généré par spotipy)
-
 ├── .vscode/
-
 │   └── settings.json       # Configuration Python pour VS Code
-
 └── stream_deck/
-
 └── stream_deck.ino     # Firmware Arduino (boutons, potentiomètre, OLED)
 ```
 
